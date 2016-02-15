@@ -180,11 +180,11 @@ def main():
         return 1
 
     if args.src_language not in SOURCE_LANGUAGES.keys():
-        print("Source language not supported. Run with --list-source-languages to see all supported languages.")
+        print("Source language not supported. Run with --list-src-languages to see all supported languages.")
         return 1
 
     if args.dst_language not in DESTINATION_LANGUAGES.keys():
-        print("Destination language not supported. Run with --list-destination-languages to see all supported languages.")
+        print("Destination language not supported. Run with --list-dst-languages to see all supported languages.")
         return 1
 
     if not args.source_path:
